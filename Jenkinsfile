@@ -38,7 +38,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/PramodKokadwar/Wiki-Tests.git'
-                    sh "mvn clean install"
+                    bat "mvn clean install"
                     
                 }
             }

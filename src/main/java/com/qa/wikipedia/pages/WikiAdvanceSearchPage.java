@@ -25,6 +25,7 @@ public class WikiAdvanceSearchPage {
 	private By exactlyThisText = By.id("ooui-37");
 	private By notTheseWords = By.id("ooui-41");
 	private By oneOfTheseWords = By.id("ooui-45");
+	private By testfiled = By.id("ooui-62");
 	
 	private By linkSunilChhetri = By.xpath("//a[@title='List of international goals scored by Sunil Chhetri']");
 	

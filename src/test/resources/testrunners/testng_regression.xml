@@ -16,9 +16,11 @@
 	</listeners>
 	
 	
-	<test name="Wikipedia Advance Search chrome_91">
+	<test name="Wikipedia Advance Search chrome">
+	
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="91.0" />
+		<parameter name="browserversion" value="92.0.1" />
+		
 		<classes>
 			<class name="com.qa.wikipedia.tests.WikiAdvanceSearchTest"/>
 		</classes>

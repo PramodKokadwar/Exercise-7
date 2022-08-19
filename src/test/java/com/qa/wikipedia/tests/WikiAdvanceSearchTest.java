@@ -13,9 +13,9 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
 public class WikiAdvanceSearchTest extends BaseTest {
+	
 
-
-
+	
 	@Description("pre WikiHomePage for accounts page tests")
 	@BeforeClass
 	public void wikiAdvanceSearchPageSetUp() {
